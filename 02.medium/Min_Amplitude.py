@@ -1,5 +1,10 @@
 #https://datalemur.com/questions/python-min-amplitude
 
+'''
+Given an integer array arr, the difference between the largest and smallest values is 
+called amplitude. If you can change up to three elements of the array to any value, 
+return the minimum possible amplitude.
+'''
 arr = [4, -8, -1, 3, 7, 10, 5]
 
 

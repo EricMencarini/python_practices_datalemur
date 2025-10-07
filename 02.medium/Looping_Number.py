@@ -1,6 +1,21 @@
 #https://datalemur.com/questions/python-looping-number
 
 '''
+Given an integer n, check if it is a looping number. 
+A looping number has the following properties:
+
+It is repeatedly replaced by the sum of the squares of its digits.
+This process continues until:
+
+The number becomes 1, in which case it is not a looping number.
+
+The number starts repeating in a cycle that does not include 1, 
+making it a looping number.
+Return True if n is a looping number, otherwise return False.
+'''
+
+
+'''
 Define if the n is a looping number
 '''
 def is_looping(n):

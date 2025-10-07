@@ -1,5 +1,11 @@
 #https://datalemur.com/questions/python-most-popular-integers
 
+'''
+Given an integer array and an integer n as input, return the top n integers in the 
+array (the ones that appear most frequently). 
+Return the output in non-decreasing order. 
+The test cases are generated in such a way that there will be a unique answer.
+'''
 nums = [2, 1, 2, 3, 2, 1, 2, 1, 3, 4] 
 n = 3
 

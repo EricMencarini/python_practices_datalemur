@@ -1,5 +1,13 @@
 #https://datalemur.com/questions/python-average-subarray
 
+'''
+You are given an integer array nums consisting of n elements, and an integer k.
+
+Your task is to find a contiguous subarray of nums whose length is exactly k 
+that has the highest average value. 
+A subarray is simply a sequence of consecutive elements from the original array. 
+After identifying this subarray, return the average value, rounded to two decimal places.
+'''
 #nums = [1, 2, -5, -3, 10, 3]
 #k = 9
 

@@ -1,5 +1,12 @@
 #https://datalemur.com/questions/python-clock-wise-matrix-rotation
 
+'''
+You are given an n x n 2D matrix representing an image, and you need to rotate the 
+image by 90 degrees clockwise. You are basically being asked to implement the 
+functionality of numpy.rot90(matrix, k=-1) (without actually using any helper 
+functions or outside libraries).
+
+'''
 matrix = [[5, 1], [6, 2]]
 
 '''
