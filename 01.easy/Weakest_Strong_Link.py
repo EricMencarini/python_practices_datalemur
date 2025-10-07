@@ -1,5 +1,21 @@
 #https://datalemur.com/questions/python-weakest-strong-link
 
+'''
+You know that phrase, how a chain is only as strong as its weakest link?
+
+Imagine you had a chain-link fence, represented as a matrix. For the chain-link at 
+position (i, j), the input matrix strength[i][j] indicates how strong the chain is 
+at that position (where stronger means a higher number). The numbers in the matrix 
+are unique.
+
+The Weakest Strong Link is defined as the weakest chain-link in its row but also the 
+strongest link in its column.
+
+Given a matrix strength, return the weakest strong link if it exists; otherwise, 
+return -1. If a weakest strong link exists, it is always exactly one, and it can be 
+proven that no other link will satisfy both conditions simultaneously.
+
+'''
 strength = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 

@@ -1,5 +1,19 @@
 #https://datalemur.com/questions/python-counting-letters-in-numbers
 
+'''
+If the numbers from 1 to N are written out in words 
+(e.g., "one", "two", "three", "four", etc.), how many letters are used in total when 
+writing all numbers between 1 and N (inclusive)?
+
+While writing the words, follow these rules:
+
+Do not count spaces or hyphens.
+British usage applies (we're fancy like that): for numbers over 100, include "and" 
+(e.g., "one hundred and fifteen").
+You can assume that N will always be less than or equal to 1000. Given an integer N, 
+return the total number of letters used when writing the numbers from 1 to N in words.
+
+'''
 N = 52
 
 def total_letters(N):
