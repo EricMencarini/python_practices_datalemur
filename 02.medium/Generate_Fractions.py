@@ -1,13 +1,17 @@
-#https://datalemur.com/questions/python-generate-fractions
+#n = 3
+#n = 4
+n = 10
 
-'''
-Given an integer n, generate all simplified fractions between 0 and 1 (exclusive) 
-where the denominator is less than or equal to n. A fraction is simplified if the 
-numerator and denominator have no common divisors other than 1.
-
-Return a sorted list of fractions, where each fraction is represented as 
-[numerator, denominator].
-
-'''
 def generate_fractions(n):
-	return [1,2,3]
+    list = []
+    
+    for num in range(1, n):
+        for den in range(num + 1, n + 1):
+            is_coprime = True
+            for x in range(2, min(num, den) + 1):
+                if num % x == 0 and den % x == 0:
+                    is_coprime = False
+                    break
+            if is_coprime:
+                list.append([num, den])
+    return list
