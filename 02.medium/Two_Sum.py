@@ -17,9 +17,9 @@ def two_sum(nums: list[int], target: int) -> list[int]:
     while i < len(nums):
         while j < len(nums):
             if nums[i] + nums[j] == target:
-                return sorted([i,j])
+                return sorted([i, j])
             j += 1
         i += 1
         j = i + 1
-
+    return [-1, -1]
 print(two_sum(nums, target))
