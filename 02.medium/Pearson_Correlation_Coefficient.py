@@ -1,6 +1,9 @@
 #https://datalemur.com/questions/python-pearson-correlation-coefficient
 
-import math
+import numpy as np
 
 def corr(x, y):
-	return -1
+    x = np.array(x)
+    y = np.array(y)
+    return np.corrcoef(x, y)[0, 1]
+
